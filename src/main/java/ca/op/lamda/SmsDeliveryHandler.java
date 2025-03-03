@@ -17,7 +17,7 @@ import java.util.Date;
 public class SmsDeliveryHandler implements RequestHandler<SQSEvent, Void> {
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
-    private static final String DB_URL = "jdbc:mysql://appoplive.cvhe9zlamyok.us-west-2.rds.amazonaws.com:3306/email_track";
+    private static final String DB_URL = "jdbc:mysql://appoplive.amazonaws.com:3306/email_track";
     private static final String DB_USER = "op";
     private static final String DB_PASSWORD = "BWcYT5YNDY8YQsYN";
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
